@@ -9,7 +9,7 @@ end
 def input_to_index(input)
   input = index.to_i - 1
 end
-board = [" ", " ", " "]
+
 
 def move(board,index,char = "X")
   board[index.to_i] = char
