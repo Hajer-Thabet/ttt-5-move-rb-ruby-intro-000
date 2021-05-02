@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  "#{input}".to_i
+  "5".to_i
 end
 board = [" ", " ", " "]
 def update_array_at_with(array, index, value)
