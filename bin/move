@@ -9,12 +9,11 @@ board = Array.new(9," ")
 
 puts "Where would you like to go?"
 
-input = gets
+index = gets.strip
 
-index = input_to_index(input)
+input_to_index(index)
 
-input_to_index(input)
 
-move(board,0,"X")
+move(board,index,char = "X")
 
 display_board(board)
